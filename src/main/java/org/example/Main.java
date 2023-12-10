@@ -53,12 +53,6 @@ public class Main {
             for (int i = 0; i < 16; i++) {
                 genes.set(i, individual.mutate(genes.get(i)));
             }
-//            for(int h = 0; h < 16; h++) {
-//                ;
-//                System.out.print(listFitness.get(h).get(0) + " ");
-//
-//            }
-//            System.out.print("\n");
 
         }
         for(int h = 0; h < 16; h++) {

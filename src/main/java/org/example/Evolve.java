@@ -49,7 +49,7 @@ public class Evolve {
             double value = 0;
             double weight = 0;
             double size = 0;
-            double fitness = 0;
+
 
             for (int i = 0; i < 16; i++) {
                 if (genes.get(j).get(i)) {
@@ -75,16 +75,6 @@ public class Evolve {
                 listOfIntegerForFitness.add((double) j);
                 listOfFitness.add(listOfIntegerForFitness);
             }
-
-//
-//
-//            if (value == 0) {
-//                listOfIntegerForFitness.add(value);
-//                listOfIntegerForFitness.add(weight);
-//                listOfIntegerForFitness.add(size);
-//                listOfIntegerForFitness.add((double) j);
-//                listOfFitness.add(listOfIntegerForFitness);
-//            }
 
         }
         return listOfFitness;
